@@ -9,6 +9,8 @@
 
 English | [中文说明](README.zh-CN.md)
 
+[github.com/William-JT-Shen/dsh-plugin-test-button](https://github.com/William-JT-Shen/dsh-plugin-test-button)
+
 </div>
 
 ## Why we built this

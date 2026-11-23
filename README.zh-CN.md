@@ -2,6 +2,8 @@
 
 > 会话头部的一个按钮，用来检查你正在写的 DeepSeek Harness 插件。
 
+仓库地址：[github.com/William-JT-Shen/dsh-plugin-test-button](https://github.com/William-JT-Shen/dsh-plugin-test-button)　·　[English README](README.md)
+
 ## 为什么写它
 
 改一行 `client.js`，要安装、刷新、找按钮、点一下，再去翻会话日志看发生了什么。一轮下来几分钟，大部分时间花在点击上。
