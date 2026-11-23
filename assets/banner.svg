@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200" role="img" aria-label="dsh-plugin-test-button: one header button that checks the DeepSeek Harness plugin you are writing">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1c20"/>
+      <stop offset="1" stop-color="#111316"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="200" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="859" height="199" rx="14" fill="none" stroke="#2c3038"/>
+
+  <g transform="translate(56 70)" fill="none" stroke="#5fd08a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 0h14"/>
+    <path d="M13 0v9l-8 14a4 4 0 0 0 3.4 6h14.2A4 4 0 0 0 26 23L18 9V0"/>
+    <path d="M9 20h16"/>
+  </g>
+
+  <text x="104" y="80" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#f2f4f6">dsh-plugin-test-button</text>
+  <text x="104" y="116" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#9aa4b2">One button in the session header that checks the plugin you are writing</text>
+
+  <line x1="104" y1="140" x2="700" y2="140" stroke="#2c3038" stroke-width="1"/>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#7c8794">
+    <text x="104" y="166">static checks</text>
+    <text x="216" y="166">run test</text>
+    <text x="308" y="166">报告可在会话内直接阅读</text>
+  </g>
+</svg>

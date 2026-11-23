@@ -1,0 +1,5 @@
+.dev/
+*.log
+out.json
+.DS_Store
+Thumbs.db

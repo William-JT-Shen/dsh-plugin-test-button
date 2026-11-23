@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plugin Test Button",
+    "description": "Adds a \"Test plugin\" button to the session header that self-checks the plugin under development."
+  }
+}

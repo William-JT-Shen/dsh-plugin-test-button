@@ -1,0 +1,3 @@
+- insert:
+    - id: plugin-test-button
+      name: '@local/dsh-plugin-test-button'
