@@ -74,17 +74,26 @@ client 半改完刷新页面就行；Host 半改完必须重启 Harness。Host �
 
 ## 安装
 
-把整个目录放到任意位置，然后让插件管理器 link 它：
+从 npm 装：
 
 ```text
+plugin_manager install_bundle  target = dsh-plugin-test-button
+```
+
+或者把仓库克隆下来，指向目录：
+
+```text
+git clone https://github.com/William-JT-Shen/dsh-plugin-test-button
 plugin_manager install_bundle  target = D:\path\to\dsh-plugin-test-button
 ```
+
+也可以在 Harness 的“添加插件”对话框里贴仓库地址，那个框接受包名、GitHub 地址和本地目录三种输入。
 
 profile 里的 `package.json` 和 `cordis.patch.yml` 由插件管理器写，不要手改，也不要在 profile 目录里跑 `pnpm`。
 
 装完以后，创造模式会话的头部就有这个按钮。如果你的 Harness 版本没有提供这个插件读取的 preset projection，按钮会一直隐藏，见下面的“显示条件”。
 
-卸载：在插件面板里移除 `@local/dsh-plugin-test-button`，或者用 `plugin_manager remove_bundle`。
+卸载：在插件面板里移除 `dsh-plugin-test-button`，或者用 `plugin_manager remove_bundle`。
 
 ## 用法
 

@@ -1,10 +1,10 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-plugin-test-button',
+  id: 'dsh-plugin-test-button',
   factory(require) {
     const React = require('react')
     const h = React.createElement
 
-    // 只在“创造模式”（cordis 预设）的会话里出现；预设未知时保守显示，避免误藏。
+    // 只在“创造模式”（cordis 预设）的会话里出现；预设未知时隐藏，避免到处露脸。
     const ALLOWED_PRESETS = ['cordis', '创造']
 
     const ICON = h(

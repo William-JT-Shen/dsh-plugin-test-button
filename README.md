@@ -93,11 +93,21 @@ Failed checks read the same way, with the file that failed:
 
 ## Install
 
-Copy this directory anywhere on disk, then let the plugin manager link it:
+From npm, once it is published:
 
 ```text
+plugin_manager install_bundle  target = dsh-plugin-test-button
+```
+
+Or clone the repo and point the manager at the directory:
+
+```text
+git clone https://github.com/William-JT-Shen/dsh-plugin-test-button
 plugin_manager install_bundle  target = D:\path\to\dsh-plugin-test-button
 ```
+
+Or paste the repository URL into Harness's add-plugin dialog, which accepts package names, GitHub URLs and
+local directories.
 
 The plugin manager writes the profile's `package.json` and `cordis.patch.yml` for you. Do not edit those
 files by hand and do not run `pnpm` inside the profile directory.
@@ -105,8 +115,7 @@ files by hand and do not run `pnpm` inside the profile directory.
 After install, the header shows the button in 创造模式 sessions. If your Harness predates the preset
 projection this plugin reads, the button stays hidden; see [Visibility](#visibility).
 
-Uninstall: remove `@local/dsh-plugin-test-button` in the plugin panel, or use
-`plugin_manager remove_bundle`.
+Uninstall: remove `dsh-plugin-test-button` in the plugin panel, or use `plugin_manager remove_bundle`.
 
 ## Use
 
